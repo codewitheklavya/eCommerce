@@ -23,3 +23,37 @@
     cursor: pointer;
     border-radius: 50%;
 }
+.navbar :where(.nav-section, .search-form, .nav-logo){
+  display: flex;
+  align-items: center;
+}
+
+.navbar .nav-section{
+  gap: 1rem;
+}
+.navbar .nav-logo{
+  display: flex;
+  gap: 0.5;
+  text-decoration: none;
+}
+.navbar .nav-logo .logo-text{
+  font-size: 1.25rem;
+  color: black;
+}
+
+.navbar .nav-button{
+  border: none;
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.navbar .nav-button i {
+  font-size: 1.3rem;
+  align-items: center;
+  justify-items: center;
+}
+
+
+
